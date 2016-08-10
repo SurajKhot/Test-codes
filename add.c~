@@ -3,12 +3,12 @@ int main()
 {
    int a, b, c;
  
-   printf("Enter two numbers to add\n");
+   printf("Enter two numbers to subtract\n");
    scanf("%d%d",&a,&b);
  
-   c = a + b;
+   c = a - b;
  
-   printf("Sum of entered numbers = %d\n",c);
-   printf("Thank You");
+   printf("Subtraction of entered numbers = %d\n",c);
+   printf("Thank You So Much");
    return 0;
 }
