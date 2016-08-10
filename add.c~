@@ -9,6 +9,6 @@ int main()
    c = a - b;
  
    printf("Subtraction of entered numbers = %d\n",c);
-   printf("Thank You So Much");
+   printf("Thank You");
    return 0;
 }
