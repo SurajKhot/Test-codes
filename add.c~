@@ -1,14 +1,14 @@
-#include <stdio.h>
-main()
+#include<stdio.h>
+int main()
 {
-	int a,b;
-	printf("Enter two numbers :\n");
-	scanf("%d%d", &a,&b);
-	int sum=a+b;
-	printf("The additionof %d and %d is = %d \n",a,b,sum);
-
-	int mul=a*b;
-	printf("The multiplication of %d and %d is = %d \n",a,b,mul);
-
+   int a, b, c;
+ 
+   printf("Enter two numbers to subtract\n");
+   scanf("%d%d",&a,&b);
+ 
+   c = a - b;
+ 
+   printf("Subtraction of entered numbers = %d\n",c);
+   printf("Thank You");
+   return 0;
 }
-
